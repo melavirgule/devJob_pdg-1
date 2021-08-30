@@ -19,5 +19,7 @@ Mel =>
     Travail sur l'intégration avec 2 ou 3 annonces static pour la bonne mise en page
     
 Jules =>
-    Travail sur la logic JS sans css et avec un html basic
+    Travail sur la logic JS sans css et avec un html basic.
+    
+    
     Une fois l'intégration et la logic fini, merge de la logic avec l'intégration
