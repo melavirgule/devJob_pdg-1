@@ -9,13 +9,13 @@ A faire:
     - Défini la charte graphique                        =>  Voir fichier figma
     - Concevoir un wireframe
     - Identifie le type de contenu                      =>  Annonce d'offre de stage
-    - Argumente les technos utilisées                   => html/css (scss ?) react(redux) node(axios, express)
-    - Détermine les contraintes techniques
-    - Défini les fonctions avancées du site
+    - Argumente les technos utilisées                   =>  html/css (scss ?) react(redux) node(axios, express)
+    - Détermine les contraintes techniques              =>  à faire à l'écrit 
+    - Défini les fonctions avancées du site             =>  réalisation d'un formulaire pour postuler aux offres
     - Inclu les RGPD
     - Défini le type d'hébergement choisi               => Hébergement via O2 switch sur server Jules
     - Détermine un chiffrage du projet (je sais pas ce que ça veut dire, est ce qu'il faut qu'on estime le prix du site ?)
-    - Présente les moyens de communication interne utilisés lors de la réalisation du projet            => Discord, Trello
+    - Présente les moyens de communication interne utilisés lors de la réalisation du projet            => Discord, Trello, Github
 
 - Support de présentation lors du jury
     - Page de garde
