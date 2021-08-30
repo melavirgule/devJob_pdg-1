@@ -9,7 +9,7 @@ A faire:
     - Défini la charte graphique                        =>  Voir fichier figma
     - Concevoir un wireframe
     - Identifie le type de contenu                      =>  Annonce d'offre de stage
-    - Argumente les technos utilisées
+    - Argumente les technos utilisées                   => html/css (scss ?) react(redux) node(axios, express)
     - Détermine les contraintes techniques
     - Défini les fonctions avancées du site
     - Inclu les RGPD
