@@ -13,6 +13,8 @@ Optionnel:
 
 
 Organisation du travail:
+
+
 Mel => 
     Travail sur l'intégration avec 2 ou 3 annonces static pour la bonne mise en page
     
