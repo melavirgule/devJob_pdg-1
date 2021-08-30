@@ -3,7 +3,7 @@ A faire:
 - Cahier des charges (à imprimer pour la présentation)
     - Brainstorm du choix du projet                     =>  Site de listing de stage
     - Défini le rôle et les tâches de chaque membre     =>  Mel: intégration html/css        Jules: logic react/node         Jenny:
-    - Défini la date butoir du déploiement              =>  Lundi 11 septembre
+    - Défini la date butoir du déploiement              =>  Lundi 11 octobre
     - Défini le rôle du site (vitrine, onepage etc)     =>  Site d'annonce
     - Défini la cible                                   =>  Elèves en formation
     - Défini la charte graphique                        =>  Voir fichier figma
