@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 500;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #F4F6F8;
+}
+
+.main {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+/*Primary Colors*/
+/*Secondary Colors*/
+body {
+  background-color: #5964E0;
+}
+
+.header__toggle {
+  width: 112px;
+  height: 24px;
+  font-size: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__toggle img:nth-of-type(2) {
+  width: 16px;
+}
+
+.darkmode {
+  position: relative;
+}
+.darkmode label {
+  display: grid;
+  grid-template-columns: 3em;
+  grid-template-areas: "checkbox";
+}
+.darkmode input {
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  margin-left: -32px;
+  opacity: 0;
+}
+.darkmode label::before, .darkmode label::after {
+  grid-area: checkbox;
+  content: "";
+  display: block;
+}
+.darkmode label::before {
+  width: 48px;
+  height: 24px;
+  border-radius: 1em;
+  background-color: #FFF;
+}
+.darkmode label::after {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #939BF4;
+  transition: all 0.3s;
+}
+.darkmode input:checked + label::after {
+  background-color: #5964E0;
+  transform: translateX(24px);
+}
+.darkmode input:hover + label::after {
+  background-color: #5964E0;
+}
+.darkmode input:checked:hover + label::after {
+  background-color: #939BF4;
+}
+
+/*# sourceMappingURL=style.css.map */
