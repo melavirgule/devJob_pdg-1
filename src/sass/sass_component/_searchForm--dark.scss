@@ -1,0 +1,46 @@
+@import '/src/sass/utils/variable';
+
+.search {
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: -5rem;
+}
+
+.form {
+    background-color: $primary-color-dark;
+    max-width: 46rem;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 0 auto;
+    box-shadow: 0 .2rem .2rem rgba(192, 192, 192, 0.589);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__input {
+    border: none;
+    background-color: $primary-color-dark;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons__filter {
+    width: 2rem;
+}
+
+.buttons__loupe {
+    background-color: $primary-color;
+    padding: 1rem;
+    margin-left: 2rem;
+    color: white;
+    box-sizing: content-box;
+    transform: scale(.8);
+    border-radius: .6rem;
+}

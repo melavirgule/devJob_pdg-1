@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.scss';
+import './App--dark.scss';
+import Header from './component/header/Header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import JobList from './component/main/JobList';
+import JobDetails from './component/main/JobDetails';
+import SearchForm from './component/main/SearchForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <SearchForm />
+            <JobList />
+          </Route>
+          <Route path="/jobdetails/:id">
+            <JobDetails />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
